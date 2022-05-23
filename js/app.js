@@ -90,3 +90,42 @@ if (document.querySelector('.post-slider-3 .slider-1 .swiper') && document.query
     },
   });
 }
+
+/* #Process Experience
+  ======================================================= */
+if (document.querySelector('.process-experience')) {
+  const processExperience = document.querySelector('.process-experience');
+  const collapsibles = processExperience.querySelectorAll('.collapsible');
+
+  processExperience.addEventListener('click', (e) => {
+    let marker = 0;
+    
+    collapsibles.forEach((collapsible, index) => {
+      collapsible.classList.remove('show-as-active')
+    });
+
+    collapsibles.forEach((collapsible, index) => {
+      if (index > 0 && collapsible.classList.contains('show')) {
+        const i = index;
+
+        collapsibles.forEach((collapsible, ind) => {
+          if (ind > i) {
+          } else {
+            collapsible.classList.add('show-as-active')
+          }
+        });
+      }
+
+      if (collapsible.classList.contains('show')) {
+        marker++;
+      } else {
+      }
+    })
+
+    if (marker < 1) {
+      processExperience.classList.add('show-first');
+    } else {
+      processExperience.classList.remove('show-first');
+    }
+  })
+}

@@ -1138,3 +1138,161 @@ body {
     border-radius: 3.33vw;
   }
 }
+
+/* #Process Experience
+  ======================================================= */
+.process-experience {
+  margin: 3.125vw 0 9.11vw 0;
+  position: relative;
+}
+
+.process-experience .container {
+  padding-left: 15.72vw;
+  padding-bottom: 7vw;
+}
+
+.process-experience h2 {
+  line-height: 1.5;
+  margin-bottom: 2vw;
+}
+
+.process-experience .collapsible:not(:last-child) {
+  margin-bottom: 2vw;
+}
+
+.process-experience .collapse-toggler {
+  width: 33vw;
+  display: flex;
+  position: relative;
+}
+
+.process-experience .collapsible:not(:last-child) .collapse-toggler::after {
+  content: '';
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  height: 100%;
+  border-left: 1px dashed #D1D1D1;
+  z-index: -1;
+}
+
+.process-experience .collapsible:not(:last-child).show .collapse-toggler::after,
+.process-experience .collapsible:not(:last-child).show-as-active .collapse-toggler::after,
+.process-experience.show-first .collapsible:first-child .collapse-toggler::after {
+  border-color: #D800E6;
+}
+
+.process-experience .num {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #D800E6;
+  color: #D800E6;
+  flex-shrink: 0;
+  font-weight: 700;
+  margin-right: 1.92vw;
+  background-color: white;
+}
+
+.process-experience .show .num,
+.process-experience .show-as-active .num,
+.process-experience.show-first .collapsible:first-child .num {
+  color: white;
+  background-color: #D800E6;
+}
+
+.process-experience .collapse-toggler h3 {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.process-experience .collapse img {
+  width: 45.11vw;
+  height: 45.36vw;
+  object-fit: cover;
+  border-top-left-radius: 1.3vw;
+  border-bottom-left-radius: 1.3vw;
+}
+
+@media (min-width: 1024px) {
+  .process-experience .collapse {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto!important;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+  }
+
+  .process-experience .collapsible.show .collapse {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .process-experience.show-first .collapsible:nth-child(1) .collapse {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .process-experience {
+    margin: 4vw 0 28.4vw 0;
+    position: relative;
+  }
+  
+  .process-experience .container {
+    padding-left: 4vw;
+    padding-bottom: 0;
+  }
+  
+  .process-experience h2 {
+    line-height: 1.5;
+    margin-bottom: 8vw;
+  }
+  
+  .process-experience .collapsible:not(:last-child) {
+    margin-bottom: 0;
+    padding-bottom: 9.33vw;
+    overflow: hidden;
+  }
+  
+  .process-experience .collapse-toggler {
+    width: 100%;
+    padding-right: 4vw;
+  }
+  
+  .process-experience .collapsible:not(:last-child) .collapse-toggler::after {
+    top: 10.4vw;
+    left: 5.2vw;
+    height: 244%;
+  }
+  
+  .process-experience .num {
+    width: 10.4vw;
+    height: 10.4vw;
+    margin-right: 5.33vw;
+  }
+  
+  .process-experience .collapse-toggler h3 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+  
+  .process-experience .collapse img {
+    width: 75vw;
+    height: 47vw;
+    border-radius: 2vw;
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: 5.33vw;
+  }
+
+  .process-experience.show-first .collapsible:first-child .collapse {
+    height: auto!important;
+  }
+}
