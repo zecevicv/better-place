@@ -5,7 +5,8 @@ if (document.querySelector('.banner .swiper')) {
     autoplay: {
       delay: 5000,
     },
-    loop: true
+    loop: true,
+    effect: 'fade'
   });
 }
 
@@ -18,7 +19,7 @@ if (document.querySelector('.post-slider .swiper')) {
     breakpoints: {
       0: {
         slidesPerView: 2
-      }, 
+      },
       1024: {
         slidesPerView: 4
       }
@@ -39,7 +40,7 @@ if (document.querySelector('.reviews .swiper')) {
     breakpoints: {
       0: {
         slidesPerView: 1.6
-      }, 
+      },
       1024: {
         slidesPerView: 5.1
       }
@@ -55,7 +56,7 @@ if (document.querySelector('.post-slider-2 .slider-1 .swiper') && document.query
     slidesPerView: 1,
     allowTouchMove: false,
   });
-  
+
   const slider1 = new Swiper(".post-slider-2 .slider-1 .swiper", {
     loop: true,
     slidesPerView: 1,
@@ -66,6 +67,7 @@ if (document.querySelector('.post-slider-2 .slider-1 .swiper') && document.query
       nextEl: ".post-slider-2 .slider-1 .next",
       prevEl: ".post-slider-2 .slider-1 .prev",
     },
+    effect: 'fade'
   });
 }
 
@@ -77,7 +79,7 @@ if (document.querySelector('.post-slider-3 .slider-1 .swiper') && document.query
     slidesPerView: 2,
     allowTouchMove: false,
   });
-  
+
   const slider1 = new Swiper(".post-slider-3 .slider-1 .swiper", {
     loop: true,
     slidesPerView: 1,
@@ -99,7 +101,7 @@ if (document.querySelector('.process-experience')) {
 
   processExperience.addEventListener('click', (e) => {
     let marker = 0;
-    
+
     collapsibles.forEach((collapsible, index) => {
       collapsible.classList.remove('show-as-active')
     });
@@ -109,8 +111,7 @@ if (document.querySelector('.process-experience')) {
         const i = index;
 
         collapsibles.forEach((collapsible, ind) => {
-          if (ind > i) {
-          } else {
+          if (ind > i) {} else {
             collapsible.classList.add('show-as-active')
           }
         });
@@ -118,8 +119,7 @@ if (document.querySelector('.process-experience')) {
 
       if (collapsible.classList.contains('show')) {
         marker++;
-      } else {
-      }
+      } else {}
     })
 
     if (marker < 1) {
@@ -129,3 +129,13 @@ if (document.querySelector('.process-experience')) {
     }
   })
 }
+
+/* #AOS Animations
+    ======================================================= */
+AOS.init({
+  startEvent: 'load',
+  once: true,
+  duration: 800,
+  offset: 300,
+  easing: 'ease-out-quart'
+});

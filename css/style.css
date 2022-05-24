@@ -158,7 +158,7 @@ body {
   align-items: center;
 }
 
-.header-action p {
+.header-action a:first-child {
   margin-right: 1.3vw;
 }
 
@@ -189,6 +189,10 @@ body {
 
   .header-hamburger img {
     width: 5.46vw;
+  }
+
+  .header-action a:first-child {
+    display: none;
   }
 }
 
@@ -388,6 +392,7 @@ body {
   display: flex;
   align-items: center;
   padding-top: 8.64vw;
+  overflow: hidden;
 }
 
 .banner .text {
@@ -655,6 +660,7 @@ body {
 
 .reviews .bg img {
   width: 100%;
+  border-radius: 1.3vw;
 }
 
 .reviews .box {
@@ -849,6 +855,7 @@ body {
 
 .post-slider-2 .slider-1 .swiper-slide {
   display: flex;
+  background-color: white;
 }
 
 .post-slider-2 .slider-1 .img {
@@ -887,6 +894,9 @@ body {
 /* Slider 2 */
 .post-slider-2 .slider-2 {
   flex: 0 0 13.22vw;
+  border-top-left-radius: 1.3vw;
+  border-bottom-left-radius: 1.3vw;
+  overflow: hidden;
 }
 
 .post-slider-2 .slider-2 .img img {
@@ -894,8 +904,6 @@ body {
   height: 31.92vw;
   object-fit: cover;
   object-position: center;
-  border-top-left-radius: 1.3vw;
-  border-bottom-left-radius: 1.3vw;
 }
 
 @media (max-width: 1023.98px) {
