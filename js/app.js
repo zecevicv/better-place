@@ -139,3 +139,59 @@ AOS.init({
   offset: 300,
   easing: 'ease-out-quart'
 });
+
+/* #Post Slider 4
+    ======================================================= */
+if (document.querySelector('.post-slider-4 .swiper')) {
+  new Swiper(".post-slider-4 .swiper", {
+    loop: true,
+    navigation: {
+      nextEl: ".post-slider-4 .next",
+      prevEl: ".post-slider-4 .prev",
+    },
+    breakpoints:{
+      0: {
+        slidesPerView: 1.1,
+        centeredSlides: false
+      },
+      1024: {
+        slidesPerView: 1.6,
+        centeredSlides: true
+      }
+    }
+  });
+}
+
+/* #Numbers Banner
+    ======================================================= */
+if (document.querySelector('.numbers-banner .swiper')) {
+  new Swiper(".numbers-banner .swiper", {
+    navigation: {
+      nextEl: ".numbers-banner .next",
+      prevEl: ".numbers-banner .prev",
+    },
+    breakpoints:{
+      0: {
+        slidesPerView: 1,
+      },
+      1024: {
+        slidesPerView: 4,
+      }
+    }
+  });
+}
+
+/* #Post Slider 5
+    ======================================================= */
+if (document.querySelector('.post-slider-5 .swiper')) {
+  new Swiper(".post-slider-5 .swiper", {
+    breakpoints:{
+      0: {
+        slidesPerView: 1.4,
+      },
+      1024: {
+        slidesPerView: 3
+      }
+    }
+  });
+}
