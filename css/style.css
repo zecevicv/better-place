@@ -2578,3 +2578,40 @@ body {
     border-radius: 1.33vw;
   }
 }
+
+/* #Error
+  ======================================================= */
+.error {
+  position: relative;
+}
+
+.error .img img,
+.error .img picture {
+  width: 100%;
+}
+
+.error .text {
+  position: absolute;
+  top: 62%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1;
+  color: #666F6E;
+}
+
+.error h2 {
+  margin-bottom: 2vw;
+}
+
+@media (max-width: 1023.98px) {
+  .error .text {
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .error h2 {
+    margin-bottom: 8vw;
+  }
+}
