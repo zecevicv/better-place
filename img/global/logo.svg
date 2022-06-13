@@ -1,20 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178.099" height="83.93" viewBox="0 0 178.099 83.93">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159" height="65" viewBox="0 0 159 65">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_85" data-name="Rectangle 85" width="178.099" height="83.93" fill="none"/>
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="159" height="65" transform="translate(0.067)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_85" data-name="Rectangle 85" width="157.027" height="74" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Group_7751" data-name="Group 7751" transform="translate(-393.633 -24.717)">
-    <g id="Group_7749" data-name="Group 7749" transform="translate(393.633 24.717)">
-      <g id="Group_7748" data-name="Group 7748" clip-path="url(#clip-path)">
-        <text id="Better" transform="translate(61.315 32.222)" fill="#231f20" font-size="36" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Better</tspan></text>
-        <text id="Place" transform="translate(61.315 72.242)" fill="#231f20" font-size="36" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">P</tspan><tspan y="0" letter-spacing="-0.029em">l</tspan><tspan y="0">ace</tspan></text>
+  <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(-0.067)" clip-path="url(#clip-path)">
+    <g id="Group_7751" data-name="Group 7751" transform="translate(-393.633 -24.921)">
+      <g id="Group_7749" data-name="Group 7749" transform="translate(393.633 24.921)">
+        <g id="Group_7748" data-name="Group 7748" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <g id="Group_8070" data-name="Group 8070" transform="translate(54.061 0.196)">
+            <text id="Better" transform="translate(0 24)" font-size="27" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Better</tspan></text>
+            <text id="Place" transform="translate(0 59.285)" font-size="27" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">P</tspan><tspan y="0" letter-spacing="-0.029em">l</tspan><tspan y="0">ace</tspan></text>
+          </g>
+        </g>
       </g>
-    </g>
-    <g id="Group_7750" data-name="Group 7750" transform="translate(394.509 28.667)">
-      <path id="Path_23105" data-name="Path 23105" d="M36.327,35.011c6.5,1.514,11.314,4.532,14.079,11-3.173-.158-5.989-.148-8.769-.463C31.414,44.391,29.84,38.456,23.1,24.58A58.792,58.792,0,0,0,.851.195a6.519,6.519,0,0,1,1-.195c8.58.028,17.163-.062,25.739.146,5.081.124,10.04,1.177,14.357,4.094,6.367,4.3,8.254,10.63,7.226,17.821-.952,6.655-5.329,10.579-11.6,12.533-.294.092-.584.2-1.241.416" transform="translate(-0.851 0)" fill="#d800e6"/>
-      <path id="Path_23106" data-name="Path 23106" d="M0,17.183c1.075.6,2.033,1.058,2.914,1.634,6.944,4.543,12.9,10,16.145,17.872C24.966,51.025,16.365,65.836,1.1,68.672c-.317.059-.642.075-1.1.127Z" transform="translate(0 0.529)" fill="#d800e6"/>
-      <path id="Path_23107" data-name="Path 23107" d="M15.481,71.294C14.9,64.4,29.373,47.317,48.241,51.026c.877-.025,1.75-.181,2.8-.3.043,4.967-1.093,9.359-4.36,13.048-3.484,3.935-8.084,5.753-13.076,6.74-5.969,1.179-12.014.655-18.127.775" transform="translate(-0.383 1.446)" fill="#d800e6"/>
+      <g id="Group_7750" data-name="Group 7750" transform="translate(394.406 27.009)">
+        <path id="Path_23105" data-name="Path 23105" d="M30.487,29.247c5.426,1.265,9.451,3.786,11.761,9.187-2.65-.132-5-.124-7.325-.387-8.541-.964-9.855-5.922-15.486-17.514A49.113,49.113,0,0,0,.851.163,5.446,5.446,0,0,1,1.684,0c7.167.023,14.337-.052,21.5.122a21.889,21.889,0,0,1,11.994,3.42c5.319,3.593,6.9,8.88,6.036,14.887-.8,5.559-4.452,8.837-9.691,10.47-.245.077-.488.164-1.037.348" transform="translate(-0.851 0)" fill="#f36"/>
+        <path id="Path_23106" data-name="Path 23106" d="M0,17.183c.9.5,1.7.883,2.434,1.365,5.8,3.795,10.778,8.355,13.487,14.93,4.935,11.976-2.25,24.348-15,26.717-.265.049-.536.063-.919.106Z" transform="translate(0 -2.387)" fill="#f36"/>
+        <path id="Path_23107" data-name="Path 23107" d="M15.478,67.871c-.486-5.755,11.6-20.029,27.367-16.931.733-.021,1.462-.152,2.341-.247.036,4.149-.913,7.818-3.642,10.9-2.91,3.288-6.753,4.806-10.923,5.63-4.986.985-10.036.547-15.142.648" transform="translate(-2.866 -7.107)" fill="#f36"/>
+      </g>
     </g>
   </g>
 </svg>

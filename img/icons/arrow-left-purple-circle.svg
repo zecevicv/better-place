@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85.6" height="85.6" viewBox="0 0 85.6 85.6">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_81" data-name="Rectangle 81" width="15" height="11" fill="#d800e6"/>
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="15" height="11" fill="#f36"/>
     </clipPath>
   </defs>
-  <g id="Group_8034" data-name="Group 8034" transform="translate(-1012 -7621)">
-    <g id="Group_7722" data-name="Group 7722" transform="translate(2358.6 8418.6) rotate(180)">
+  <g id="Group_8088" data-name="Group 8088" transform="translate(-303 -7328.648)">
+    <g id="Group_42" data-name="Group 42" transform="translate(1649.6 8126.248) rotate(180)">
       <g id="Group_20" data-name="Group 20" transform="translate(1261 712)">
         <g id="Path_13" data-name="Path 13" fill="none">
           <path d="M42.8,0h0a42.8,42.8,0,0,1,0,85.6h0A42.8,42.8,0,0,1,42.8,0Z" stroke="none"/>
@@ -13,9 +13,9 @@
         </g>
       </g>
     </g>
-    <g id="Group_7724" data-name="Group 7724" transform="translate(1047 7658)">
+    <g id="Group_7719" data-name="Group 7719" transform="translate(338 7365.647)">
       <g id="Group_7702" data-name="Group 7702" transform="translate(0 0)" clip-path="url(#clip-path)">
-        <path id="Path_23074" data-name="Path 23074" d="M5.927.287h0a.98.98,0,0,1,0,1.386l-2.6,2.6H14.02a.98.98,0,0,1,0,1.96H3.362l2.6,2.6a.98.98,0,0,1,0,1.386h0a.98.98,0,0,1-1.386,0L.287,5.926a.98.98,0,0,1,0-1.386L4.541.287a.98.98,0,0,1,1.386,0" transform="translate(0 0.5)" fill="#d800e6"/>
+        <path id="Path_23074" data-name="Path 23074" d="M5.927.287h0a.98.98,0,0,1,0,1.386l-2.6,2.6H14.02a.98.98,0,0,1,0,1.96H3.362l2.6,2.6a.98.98,0,0,1,0,1.386h0a.98.98,0,0,1-1.386,0L.287,5.926a.98.98,0,0,1,0-1.386L4.541.287a.98.98,0,0,1,1.386,0" transform="translate(0 0.5)" fill="#f36"/>
       </g>
     </g>
   </g>
