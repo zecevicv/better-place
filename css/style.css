@@ -2331,6 +2331,100 @@ body {
   }
 }
 
+/* #Post Slider 6
+  ======================================================= */
+.post-slider-6 {
+  padding: 6vw 0 5.2vw 15vw;
+}
+
+.post-slider-6 .heading {
+  padding-right: 4.27vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.8vw;
+}
+
+.post-slider-6 .heading a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #707070;
+  padding-bottom: .78vw;
+}
+
+.post-slider-6 .heading a img {
+  width: .78vw;
+  margin-left: 2.6vw;
+}
+
+.post-slider-6 .swiper {
+  margin-left: -.5vw;
+}
+
+.post-slider-6 .swiper-slide {
+  padding: 0 .5vw;
+  position: relative;
+}
+
+.post-slider-6 .img img {
+  width: 100%;
+  height: 21.5vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: .5vw;
+  margin-bottom: 1.8vw;
+}
+
+@media (min-width: 1023.98px) {
+  .post-slider-6 .swiper-arrows {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .post-slider-6 {
+    padding: 15.33vw 0 14.66vw 5.33vw;
+    position: relative;
+    margin-bottom: 18.66vw;
+  }
+  
+  .post-slider-6 .heading {
+    margin-bottom: 4vw;
+  }
+
+  .post-slider-6 .heading a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .post-slider-6 .heading a img {
+    width: 3vw;
+    margin-left: 4vw;
+  }
+
+  .post-slider-6 .swiper {
+    margin-left: -2.66vw;
+  }
+
+  .post-slider-6 .swiper-slide {
+    padding: 0 2.66vw;
+  }
+
+  .post-slider-6 .swiper-arrows {
+    margin-top: 4.66vw;
+    padding-right: 5.33vw;
+  }
+
+  .post-slider-6 .img img {
+    height: 55vw;
+    border-radius: 1.33vw;
+    margin-bottom: 4.66vw;
+  }
+}
+
 /* #Projects
   ======================================================= */
 .projects {
@@ -3050,5 +3144,161 @@ body {
   
   .newsletter p {
     line-height: 1.33;
+  }
+}
+
+/* #Article
+  ======================================================= */
+.article {
+  padding: 8.43vw 0 0 0;
+}
+
+.article .container {
+  width: 46.875vw;
+}
+
+.article .heading {
+  text-align: center;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 6.25vw;
+}
+
+.article .heading h2 {
+  font-size: 1.04vw;
+  margin-bottom: 1.5vw;
+  color: #FF3366;
+}
+
+.article .heading h1 {
+  font-size: 2.6vw;
+  line-height: 1;
+  margin-bottom: 2.34vw;
+}
+
+.article .heading p {
+  font-size: 1.04vw;
+  line-height: 2;
+}
+
+.article .social {
+  padding: 2vw 0 2.6vw 0;
+}
+
+.article .social ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article .social li:not(:last-child) {
+  margin-right: 1.5vw;
+}
+
+.article .social img {
+  width: 1.3vw;
+  height: 1.3vw;
+  object-fit: contain;
+  object-position: center;
+}
+
+.article .body {
+  margin-bottom: 4.16vw;
+}
+
+.article .body img {
+  width: 100%;
+  margin-bottom: 4.68vw;
+}
+
+.article .body h3 {
+  font-size: 1.8vw;
+  margin: 2.8vw 0 1.04vw 0;
+}
+
+.article .body p {
+  font-size: .94vw;
+  margin-bottom: 2.8vw;
+}
+
+.article .video {
+  position: relative;
+}
+
+.article .video .img img {
+  width: 100%;
+}
+
+.article .video a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.article .video a img {
+  width: 3.43vw;
+}
+
+@media (max-width: 1023.98px) {
+  .article {
+    padding: 25.33vw 0 0 0;
+  }
+  
+  .article .container {
+    width: 92%;
+  }
+  
+  .article .heading {
+    padding-bottom: 16vw;
+  }
+  
+  .article .heading h2 {
+    font-size: 4vw;
+    margin-bottom: 4vw;
+  }
+  
+  .article .heading h1 {
+    font-size: 8vw;
+    margin-bottom: 6vw;
+  }
+  
+  .article .heading p {
+    font-size: 4vw;
+    line-height: 1.66;
+  }
+  
+  .article .social {
+    padding: 9vw 0;
+  }
+  
+  .article .social li:not(:last-child) {
+    margin-right: 6.65vw;
+  }
+  
+  .article .social img {
+    width: 4.93vw;
+    height: 4.93vw;
+  }
+  
+  .article .body {
+    margin-bottom: 8.66vw;
+  }
+  
+  .article .body img {
+    margin-bottom: 9vw;
+  }
+  
+  .article .body h3 {
+    font-size: 6vw;
+    margin: 13.33vw 0 2.66vw 0;
+  }
+  
+  .article .body p {
+    font-size: 4vw;
+    margin-bottom: 13.33vw;
+  }
+  
+  .article .video a img {
+    width: 13.33vw;
   }
 }

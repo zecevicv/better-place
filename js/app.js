@@ -195,3 +195,18 @@ if (document.querySelector('.post-slider-5 .swiper')) {
     }
   });
 }
+
+/* #Post Slider 6
+    ======================================================= */
+if (document.querySelector('.post-slider-6 .swiper')) {
+  new Swiper(".post-slider-6 .swiper", {
+    breakpoints:{
+      0: {
+        slidesPerView: 1.4,
+      },
+      1024: {
+        slidesPerView: 3.5
+      }
+    }
+  });
+}
