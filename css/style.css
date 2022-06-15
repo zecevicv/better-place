@@ -4091,3 +4091,154 @@ body {
     top: 86vw;
   }
 }
+
+/* #Project Img
+  ======================================================= */
+.project-img img {
+  width: 100%;
+  height: 62.5vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* #Project Imgs
+  ======================================================= */
+.project-imgs {
+  padding: 6.77vw 0 7.8vw 0;
+}
+
+.project-imgs .container {
+  display: flex;
+  text-align: right;
+}
+
+.project-imgs .col:first-child {
+  padding: 0 5.2vw 0 4.16vw;
+  flex: 0 0 48.8vw;
+}
+
+.project-imgs .col:first-child img {
+  width: 100%;
+  height: 25.46vw;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 6.77vw;
+  border-radius: .5vw;
+}
+
+.project-imgs .col:first-child p {
+  padding-left: 13.5vw;
+}
+
+.project-imgs .col:last-child {
+  flex-grow: 1;
+}
+
+.project-imgs .col:last-child img {
+  width: 100%;
+  height: 74.89vw;
+  border-radius: .5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .project-imgs {
+    padding: 12.26vw 0 11.6vw 0;
+  }
+  
+  .project-imgs .container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+  
+  .project-imgs .col:first-child {
+    padding: 0 5.33vw;
+     
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .project-imgs .col:first-child img {
+    height: 57.86vw;
+    margin-bottom: 0;
+    border-radius: 1.33vw;
+  }
+  
+  .project-imgs .col:first-child p {
+    padding-left: 0;
+    margin-bottom: 11.33vw;
+  }
+  
+  .project-imgs .col:last-child img {
+    height: 145vw;
+    border-radius: 0;
+    margin-bottom: 12.66vw;
+  }
+}
+
+/* #Project
+  ======================================================= */
+.project {
+  padding-top: 8.43vw;
+  text-align: center;
+}
+
+.project .container {
+  width: 60.6vw;
+}
+
+.project .img {
+  margin-top: 5.2vw;
+}
+
+.project .img img {
+  width: 100%;
+  height: 39.4vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project .heading {
+  padding: 0 4vw;
+}
+
+.project h1 {
+  line-height: 1.2;
+  margin: 1.8vw 0 2.34vw 0;
+}
+
+.project p {
+  line-height: 2;
+}
+
+@media (max-width: 1023.98px) {
+  .project {
+    padding-top: 24.53vw;
+    text-align: center;
+  }
+  
+  .project .container {
+    width: 90%;
+  }
+  
+  .project .img {
+    margin-top: 8vw;
+  }
+  
+  .project .img img {
+    height: 58.66vw;
+  }
+  
+  .project .heading {
+    padding: 0;
+  }
+  
+  .project h1 {
+    line-height: 1.25;
+    margin: 2.66vw 0 5.33vw 0;
+  }
+  
+  .project p {
+    line-height: 1.66;
+  }
+}
