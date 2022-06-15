@@ -210,3 +210,14 @@ if (document.querySelector('.post-slider-6 .swiper')) {
     }
   });
 }
+
+/* #Customer Stories Banner
+    ======================================================= */
+if (document.querySelector('.customer-stories-banner .swiper')) {
+  new Swiper(".customer-stories-banner .swiper", {
+    slidesPerView: 1,
+    pagination: {
+      el: ".customer-stories-banner .swiper-pagination",
+    },
+  });
+}
