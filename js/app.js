@@ -221,3 +221,14 @@ if (document.querySelector('.customer-stories-banner .swiper')) {
     },
   });
 }
+
+/* #Gallery Slider
+    ======================================================= */
+if (document.querySelector('.gallery .swiper')) {
+  new Swiper(".gallery .swiper", {
+    slidesPerView: 1,
+    pagination: {
+      el: ".gallery .swiper-pagination",
+    },
+  });
+}
