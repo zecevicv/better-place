@@ -3850,7 +3850,7 @@ body {
   .customer-stories-banner {
     padding: 19.33vw 0 0 0;
   }
-  
+
   .customer-stories-banner .container {
     padding: 0 4vw;
   }
@@ -3941,26 +3941,26 @@ body {
   .before-after {
     padding: 11.33vw 0 12.66vw 0;
   }
-  
+
   .before-after .container {
     width: 92%;
   }
-  
+
   .before-after h2 {
     margin: 0 auto;
     margin-bottom: 8.66vw;
     width: 100%;
     text-align: left;
   }
-  
+
   .before-after .row {
     display: block;
   }
-  
+
   .before-after .col:first-child {
     margin-bottom: 8vw;
   }
-  
+
   .before-after .col img {
     height: 59.2vw;
     border-radius: 3.33vw;
@@ -4040,48 +4040,48 @@ body {
   .gallery .container {
     display: block;
   }
-  
+
   /* Text */
   .gallery .text {
     margin-right: 0;
     padding: 14.66vw 5.33vw 13.33vw 5.33vw;
     margin-bottom: 14vw;
   }
-  
+
   .gallery .text-wrap {
     padding-top: 4vw;
   }
-  
+
   .gallery .text h2 {
     margin-bottom: 6vw;
   }
-  
+
   .gallery .text h3 {
     margin-top: 23.33vw;
     margin-bottom: 1vw;
   }
-  
+
   .gallery .text p {
     line-height: 1.66;
   }
-  
+
   /* Img */
   .gallery .img h2 {
     margin-top: 0;
     margin-bottom: 6.65vw;
     margin-left: 5.33vw;
   }
-  
+
   .gallery .img .swiper-slide img {
     height: 73.86vw;
     margin-bottom: 28.4vw;
   }
-  
+
   .gallery .img .swiper-slide p {
     width: 100%;
     padding: 0 5.33vw;
   }
-  
+
   .gallery .img .swiper-pagination {
     position: absolute;
     right: 0;
@@ -4144,31 +4144,31 @@ body {
   .project-imgs {
     padding: 12.26vw 0 11.6vw 0;
   }
-  
+
   .project-imgs .container {
     display: flex;
     flex-direction: column-reverse;
     text-align: left;
   }
-  
+
   .project-imgs .col:first-child {
     padding: 0 5.33vw;
-     
+
     display: flex;
     flex-direction: column-reverse;
   }
-  
+
   .project-imgs .col:first-child img {
     height: 57.86vw;
     margin-bottom: 0;
     border-radius: 1.33vw;
   }
-  
+
   .project-imgs .col:first-child p {
     padding-left: 0;
     margin-bottom: 11.33vw;
   }
-  
+
   .project-imgs .col:last-child img {
     height: 145vw;
     border-radius: 0;
@@ -4216,29 +4216,119 @@ body {
     padding-top: 24.53vw;
     text-align: center;
   }
-  
+
   .project .container {
     width: 90%;
   }
-  
+
   .project .img {
     margin-top: 8vw;
   }
-  
+
   .project .img img {
     height: 58.66vw;
   }
-  
+
   .project .heading {
     padding: 0;
   }
-  
+
   .project h1 {
     line-height: 1.25;
     margin: 2.66vw 0 5.33vw 0;
   }
-  
+
   .project p {
     line-height: 1.66;
+  }
+}
+
+/* #About Page Overrides
+  ======================================================= */
+  /* Banner */
+.about-page .services-banner .text {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1023.98px) {
+  .about-page .services-banner .text {
+    width: 81vw;
+  }
+}
+
+/* Project Heading */
+.about-page .project {
+  padding: 0 0 7.8vw 0;
+}
+
+.about-page .project .heading {
+  padding: 0;
+}
+
+@media (max-width: 1023.98px) {
+  .about-page .project {
+    padding: 0 0 20vw 0;
+  }
+}
+
+/* Before After */
+.about-page .before-after .container {
+  width: 66%;
+}
+
+.about-page .before-after .heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2.34vw;
+  width: 43.75vw;
+}
+
+.about-page .before-after h2 {
+  margin: 0 auto;
+  margin-bottom: .78vw;
+  width: 100%;
+}
+
+.about-page .before-after .col {
+  flex: 0 0 32.3vw;
+  position: relative;
+}
+
+.about-page .before-after .col img {
+  height: 21.51vw;
+  margin-bottom: 0;
+}
+
+.about-page .before-after .text {
+  color: white;
+  position: absolute;
+  bottom: 1.5vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1023.98px) {
+  .about-page .before-after .container {
+    width: 90%;
+  }
+  
+  .about-page .before-after .heading {
+    margin-bottom: 6vw;
+    width: 100%;
+  }
+  
+  .about-page .before-after h2 {
+    margin-bottom: 3.33vw;
+    text-align: center;
+  }
+  
+  .about-page .before-after .col img {
+    height: 58.66vw;
+  }
+  
+  .about-page .before-after .text {
+    bottom: 3.33vw;
+    width: 100%;
   }
 }
